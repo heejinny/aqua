@@ -45,9 +45,6 @@ function Home() {
       const parsedJwtToken = JSON.parse(storedJwtToken);
       const parsedUserId = JSON.parse(storedUserId);
 
-      console.log("parsedJwtToken.value : ", parsedJwtToken.value)
-      console.log("parsedUserId.value : ", parsedUserId.value)
-
       setItemWithExpiry('jwt_token', parsedJwtToken.value, expiryTime * 60 * 1000);
       setItemWithExpiry('user_id', parsedUserId.value, expiryTime * 60 * 1000);
     }
