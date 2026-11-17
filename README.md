@@ -1,4 +1,4 @@
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/89474d16-1a6c-48c4-ad7f-3fdcf2f303e6" /># AQUA – 생활스포츠지도사 2급 시험 대비 퀴즈 플랫폼
+# AQUA – 생활스포츠지도사 2급 시험 대비 퀴즈 플랫폼
 
 **AQUA**는 생활스포츠지도사 2급 필기시험을 준비하는 사용자가 과목별 문제를 풀고, 풀이 결과와 오답을 확인하며 학습 현황을 관리할 수 있도록 개발한 모바일 중심의 퀴즈 웹 애플리케이션입니다.
 
@@ -22,7 +22,10 @@
 - 로그인 후 JWT 발급 및 사용자 인증
 - 브라우저 LocalStorage를 활용한 토큰 및 사용자 정보 관리
 - 토큰 만료 시간을 고려한 클라이언트 인증 상태 관리
-<img width="1080" height="2340" alt="image" src="https://github.com/user-attachments/assets/1986f1b7-d0c6-470a-be95-c0d0a27a9467" />
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/5b7d9ae4-97e6-40f6-84b3-84ad8193b73b" width="250"/>
+    <img src="https://github.com/user-attachments/assets/69b4a258-6020-489a-855f-4499c7477e66" width="250"/>
+</p>
 
 
 ### ② 7개 과목별 퀴즈 풀이
@@ -32,6 +35,13 @@
 - 문제별 선택지 입력 및 이전·다음 문항 이동
 - 풀이 시간 표시
 - 답안 제출 및 점수 확인
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/84d9e74d-e856-4244-9351-d4a14e2e2f23" width="250"/>
+    <img src="https://github.com/user-attachments/assets/e686ff07-08fb-49e5-be12-b26b4e385a67" width="250"/>
+    <img src="https://github.com/user-attachments/assets/77bbfc26-7b24-49fc-8a61-7befcac4c96b" width="250"/>
+    <img src="https://github.com/user-attachments/assets/e6edc728-896b-4e56-828c-a99418f95f8d" width="250"/>
+</p>
+
 
 ### ③ 오답노트 및 문제 복습
 - 사용자별 퀴즈 풀이 이력 조회
@@ -39,17 +49,31 @@
 - 선택한 답과 정답 비교
 - 문항별 해설 확인
 - 과거 풀이 결과를 활용한 복습 지원
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/8dcf4920-840b-404d-a1f7-4723a604f5a5" width="250"/>
+    <img src="https://github.com/user-attachments/assets/0973991d-162e-4afc-af96-492decabb8ed" width="250"/>
+    <img src="https://github.com/user-attachments/assets/213aabac-2f7b-4259-b1b2-9b9723234960" width="250"/>
+</p>
+
 
 ### ④ 마이페이지 및 학습 결과 시각화
 - Plotly 기반 Sunburst 차트로 학습 결과 시각화
 - 과목별 평균 점수 조회
 - 사용자별 누적 풀이 결과 확인
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/1be82951-c34d-43cd-abbf-8407274f50b7" width="250"/>
+    <img src="https://github.com/user-attachments/assets/cc72c2d5-b536-434b-8111-0744e09732cd" width="250"/>
+</p>
+
 
 ### ⑤ 문제 오류 제보
 - 퀴즈 화면에서 문제 오류 제보 모달 호출
 - 오류 유형, 문항 번호, 상세 내용 입력
 - Discord Webhook을 활용한 오류 제보 전달
 - 풀이 화면을 벗어나지 않고 문제 오류 접수 가능
+<p align="center">
+    <img src="https://github.com/user-attachments/assets/6839e8bd-d6be-4b33-99d9-de72353a5e2e" width="250"/>
+</p>
 
 ## 3. 기술 스택
 
